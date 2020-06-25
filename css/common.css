@@ -10,6 +10,7 @@ header, main {
 	font-size: 20px;
 }
 *{
+	font-size: 18px;
 	text-align: center;
 }
 a {
@@ -20,6 +21,7 @@ ul, ol {
 	padding: 0;
 }
 li {
+
   list-style: none;
 }
 .dot {
@@ -28,7 +30,7 @@ li {
 .dot::after{
 	position: absolute;
 	top: -36px;
-	font-size: 36px;
+	font-size: 40px;
 	content: ".";
 	color: red;
 }
@@ -44,11 +46,15 @@ header {
 .pine {
 	width: 300px;
 	position: absolute;
-	left: 0;
+	right: 0;
 	top: 20px;
+}
+.header-logo {
+	font-size: 48px;
 }
 .header-logo span {
 	color: #ff4a4a;
+	font-size: 48px;
 }
 .header-list li {
 	display: inline-block;
@@ -57,12 +63,34 @@ header {
 	list-style: none;
 	font-weight: 400;
   margin-left: 40px;
-	font-size: 18px;
 	margin-bottom: 100px;
 }
+/* タブレット --------- */
+@media screen and (max-width: 1023px) {
+}
+/* タブレット --------- */
+/* SP --------- */
+@media screen and (max-width: 480px) {
+	.header-logo {
+		font-size: 64px;
+	}
+	.header-logo span {
+		font-size: 64px;
+	}
+	.header-list ul {
+		margin-bottom: 50px;
+	}
+	.header-list li {
+		display: block;
+		margin-bottom: 20px;
+		margin-left: 0;
+	}
+}
+/* SP --------- */
 /* Header ---------------------------------- */
 /* Footer ---------------------------------- */
 footer {
+	position: relative;
 	padding-top: 100px;
 	padding-bottom: 50px;
 }
@@ -82,13 +110,43 @@ footer {
 	display: inline-block;
 }
 .Copyright {
+	font-size: 14px;
 	margin-top: 10px;
 	font-size: 8px;
 }
-.pine-grass {
-	width: 300px;
-	position: absolute;
-	left: 0;
-	top: 20px;
+.pine-glass {
+	position: relative;
+	width: fit-content;
+	margin: 0 auto;
 }
+.pine-glass img {
+	position: absolute;
+	bottom: 20px;
+	right: 0;
+  height: 150px;
+}
+.twitter-logo, .qiita-logo, .github-logo {
+	width: 48px;
+	height: 48px;
+}
+/* タブレット --------- */
+@media screen and (max-width: 1023px) {
+}
+/* タブレット --------- */
+/* SP --------- */
+@media screen and (max-width: 480px) {
+	.footer-logo h2 {
+		font-size: 36px;
+	}
+	.footer-link {
+		display: block;
+	}
+	.twitter-logo, .qiita-logo, .github-logo {
+		width: 80px;
+		height: 80px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+/* SP --------- */
 /* Footer ---------------------------------- */
