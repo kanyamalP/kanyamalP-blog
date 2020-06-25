@@ -1,0 +1,94 @@
+/* 共通設定を記載する */
+body {
+	margin: 0;
+	font-family: "Roboto", Arial, serif;
+	text-transform: none;
+  line-height: 1.8;
+  font-weight: 300;
+}
+header, main {
+	font-size: 20px;
+}
+*{
+	text-align: center;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+ul, ol {
+	padding: 0;
+}
+li {
+  list-style: none;
+}
+.dot {
+	position: relative;
+}
+.dot::after{
+	position: absolute;
+	top: -36px;
+	font-size: 36px;
+	content: ".";
+	color: red;
+}
+/* Header ---------------------------------- */
+header {
+	text-align: center;
+	position: relative;
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-top: 70px ;
+}
+.pine {
+	width: 300px;
+	position: absolute;
+	left: 0;
+	top: 20px;
+}
+.header-logo span {
+	color: #ff4a4a;
+}
+.header-list li {
+	display: inline-block;
+	padding-bottom: 5px;
+  position: relative;
+	list-style: none;
+	font-weight: 400;
+  margin-left: 40px;
+	font-size: 18px;
+	margin-bottom: 100px;
+}
+/* Header ---------------------------------- */
+/* Footer ---------------------------------- */
+footer {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.footer-logo {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.footer-logo h2 {
+	font-size: 20px
+}
+.footer-logo p {
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+.footer-link {
+	display: inline-block;
+}
+.Copyright {
+	margin-top: 10px;
+	font-size: 8px;
+}
+.pine-grass {
+	width: 300px;
+	position: absolute;
+	left: 0;
+	top: 20px;
+}
+/* Footer ---------------------------------- */
