@@ -51,4 +51,30 @@
 	text-align: center;
 	color:#fbb32ca6;
 }
+/* タブレット ----------- */
+@media screen and (max-width: 1023px) {
+	.main-skill-section {
+		display: block;
+	}
+	.main-skill-section .section-nummber {
+		width: 100%;
+	}
+	.main-skill-section .section-text {
+		width: 100%;
+	}
+	.main-skill-next-section .section-text {
+		width: 100%;
+	}
+	.main-skill-next-section .section-text {
+		width: 100%;
+	}
+	.main-skill-next-section .section-nummber {
+		width: 100%;
+	}
+
+	.main-skill {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
 /*footer------------------------------------*/
