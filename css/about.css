@@ -13,7 +13,7 @@
 	margin-bottom: 40px
 }
 .main-skill {
-	margin: 150px
+	margin: 150px 200px;
 }
 .main-skill-title{
 	font-size: 25px;
@@ -23,6 +23,7 @@
   margin: 0 auto;
 	display: flex;
 	word-wrap: break-word;
+	margin-bottom: 40px;
 }
 .main-skill-section .section-text {
 	width: 30%;
