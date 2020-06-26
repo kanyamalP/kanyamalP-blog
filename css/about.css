@@ -8,11 +8,19 @@
 	text-align: center;
 	margin-bottom: 110px;
 }
+.main-intoro-title{
+	font-size: 25px;
+	margin-bottom: 40px
+}
 .main-skill {
 	margin: 150px
 }
+.main-skill-title{
+	font-size: 25px;
+	margin-bottom: 40px;
+}
 .main-skill-section {
-	margin: 0 auto;
+  margin: 0 auto;
 	display: flex;
 	word-wrap: break-word;
 }
@@ -26,3 +34,20 @@
 	text-align: center;
 	color:#fbb32ca6;
 }
+.main-skill-next-section {
+	margin: 0 auto;
+	flex-wrap: wrap;
+	display: flex;
+	word-wrap: break-word;
+}
+.main-skill-next-section .section-text {
+	width: 30%;
+}
+.main-skill-next-section .section-nummber {
+	width: 20%;
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
+	color:#fbb32ca6;
+}
+/*footer------------------------------------*/
