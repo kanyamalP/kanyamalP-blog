@@ -31,6 +31,16 @@
 }
 /* タブレット ----------- */
 @media screen and (max-width: 1023px) {
+	.works-photo, .works-next-photo {
+		display: block;
+	}
+	.works-photo img, .works-next-photo img {
+		width: 80%;
+		margin:  0 auto;
+	}
+	.works-photo p, .works-next-photo p {
+		font-size: 24px;
+	}
 }
 /* タブレット ----------- */
 /* SP ----------- */
