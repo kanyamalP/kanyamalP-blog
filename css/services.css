@@ -6,7 +6,7 @@
   background-size: cover;
   color: white;
 	text-align: center;
-	margin-bottom: 150px;
+	margin-bottom: 110px;
 }
 .main-intoro {
 	margin-left: 50px;
@@ -34,6 +34,9 @@
 
 /* タブレット ----------- */
 @media screen and (max-width: 1023px) {
+	.services-photo, .services-next-photo {
+		display: block;
+	}
 }
 /* タブレット ----------- */
 /* SP ----------- */
