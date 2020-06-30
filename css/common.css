@@ -34,6 +34,10 @@ li {
 	content: ".";
 	color: red;
 }
+.main-intoro, .section-text p {
+	padding-left: 18px;
+	padding-right: 18px;
+}
 /* Header ---------------------------------- */
 header {
 	text-align: center;
